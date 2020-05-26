@@ -60,7 +60,6 @@ export const fetchOrdersStart = () => {
         type: actionTypes.FETCH_ORDERS_START
     };
 };
-
 export const fetchOrders = (token, userId) => {
     return dispatch => {
         dispatch(fetchOrdersStart());
